@@ -139,7 +139,7 @@ class QuestionView extends Component {
             Categories
           </h2>
           <ul>
-            {Object.keys(this.state.categories).map((id) => (
+            {/* {Object.keys(this.state.categories).map((id) => (
               <li
                 key={id}
                 onClick={() => {
@@ -153,7 +153,7 @@ class QuestionView extends Component {
                   src={`${this.state.categories[id].toLowerCase()}.svg`}
                 />
               </li>
-            ))}
+            ))} */}
           </ul>
           <Search submitSearch={this.submitSearch} />
         </div>
